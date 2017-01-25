@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <title>JS Bin</title>
+</head>
+
+<body>
+    <script>
+  function create(){
+  
+  var callback = 
+  ["music",["Music","Musical theatre","Music of Chile","Music video","Music of Japan","Music theory","Music industry","Music of the United States","Music of India","Musical composition"],
+  ["Music is an art form and cultural activity whose medium is sound and silence, which exist in time. The common elements of music are pitch (which governs melody and harmony), rhythm (and its associated concepts tempo, meter, and articulation), dynamics (loudness and softness), and the sonic qualities of timbre and texture (which are sometimes termed the \"color\" of a musical sound).","Musical theatre is a form of theatrical performance that combines songs, spoken dialogue, acting, and dance.","Chilean music refers to all kinds of music developed in Chile, or by Chileans in other countries, from the arrival of the Spanish conquistadors to the modern day.","A music video is a short film integrating a song and imagery, produced for promotional or artistic purposes.","The music of Japan includes a wide array of performers in distinct styles both traditional and modern.","Music theory is the study of the practices and possibilities of music.","The music industry consists of the companies and individuals that earn money by creating new songs and pieces and selling live concerts and shows, audio and video recordings, compositions and sheet music, and the organizations and associations that aid and represent creators.","The music of the United States reflects the country's multi-ethnic population through a diverse array of styles.","The music of India includes multiple varieties of Indian classical music, folk music, Filmi, and Indian pop.","Musical composition can refer to an original piece of music, either a song or an instrumental music piece, the structure of a musical piece, or the process of creating or writing a new song or piece of music."],
+  ["https://en.wikipedia.org/wiki/Music","https://en.wikipedia.org/wiki/Musical_theatre","https://en.wikipedia.org/wiki/Music_of_Chile","https://en.wikipedia.org/wiki/Music_video","https://en.wikipedia.org/wiki/Music_of_Japan","https://en.wikipedia.org/wiki/Music_theory","https://en.wikipedia.org/wiki/Music_industry","https://en.wikipedia.org/wiki/Music_of_the_United_States","https://en.wikipedia.org/wiki/Music_of_India","https://en.wikipedia.org/wiki/Musical_composition"]]
+  
+/*
+on submit 
+
+*/
+function createElement(elTag) {
+  return document.createElement(elTag)
+}
+
+for(var i=1; i<callback.length; i++){
+ 
+  var titleNode = document.createTextNode(callback[1][i])
+  var descriptionNode = document.createTextNode(callback[2][i])
+  console.log(titleNode)
+  console.log(descriptionNode)
+var titleP = createElement("p")
+  var descriptionP = createElement("p")
+  var resultBox = createElement("div")  
+  titleP.appendChild(titleNode)
+  resultBox.appendChild(titleP)
+  resultBox.appendChild(descriptionP)
+  resultDiv.appendChild(resultBox)
+   }
+    //descriptionP.appendChild(descriptionNode)
+  //titleP.appendChild(titleNode)
+  //resultBox.appendChild(titleP)
+  //resultBox.appendChild(descriptionP)
+  //resultDiv.appendChild(resultBox)
+  /*var titleP = createElement("p")
+  var descriptionP = createElement("p")
+  var resultBox = createElement("div")   
+  for(var j=1;j<i.length;j++){
+ */
+
+
+
+
+
+  }
+create()
+  </script>
+</body>
+
+</html>

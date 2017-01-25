@@ -1,0 +1,74 @@
+/*darkblue = #969CAA
+lightgray = #EDEEE9
+pink = #BDA09C
+darkgray = #7F7782
+lightgray = #C1BFCA
+*/
+
+body,
+input,
+#searchText:focus {
+  background: #EDEEE9;
+}
+
+#heading {
+  margin: 10% auto 0 auto;
+  text-align: center;
+  width: 50%;
+}
+
+#ask {
+  color: #969CAA;
+  font-size: 50px;
+}
+
+#searchText {
+  width: 80%;
+  border: none;
+  border-bottom: 1px dotted #969CAA;
+  color: #969CAA;
+  font-size: 30px;
+}
+
+#searchText:focus {
+  outline: none;
+}
+
+input::-webkit-calendar-picker-indicator {
+  display: none;
+}
+
+#randomArticle {
+  text-decoration: none;
+  color: #C1BFCA;
+}
+
+#resultBox {
+  width: 70%;
+  margin: 10px auto 10px auto;
+  background-color: #969CAA;
+  padding: 5px;
+  border-radius: 4px;
+}
+
+#resultBox a {
+  text-decoration: none;
+  font-size: 20px;
+  color: #EDEEE9;
+}
+
+#resultBox p:first-child {
+  color: #EDEEE9;
+}
+
+#resultBox a:hover {
+  color: #BDA09C;
+}
+
+#resultBox p:nth-child(2) {
+  color: white;
+}
+
+#randomArticle {
+  display: block;
+}
